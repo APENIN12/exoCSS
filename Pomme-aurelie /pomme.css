@@ -1,0 +1,155 @@
+body{
+    width: 770px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 900px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color: rgb(204, 247, 193);
+}
+
+.page {
+    background-color: white;
+    border-style: solid; 
+}
+
+header {
+    width : 770px; 
+    position : relative; 
+    height : 258px;
+}
+.colored { /* pour le titre colored design*/
+    color : rgb(148, 96, 148); 
+    text-align: center;
+    text-decoration: underline; 
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-size: x-large;
+    font-weight : bold;
+}
+
+nav { /* pour la barre de menu*/
+    display : flex; 
+    background-color: white;
+    height: 30px; 
+}
+
+.e1 { /* pour le bouton Etape n°1 */
+    float: left; 
+    margin-right: 1px;
+    width:127px; 
+    text-align: center;
+    line-height: 30px;
+    background-color:rgb(146,216,53);
+    color : white; 
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.4)
+}
+
+.e2{
+    float: left; 
+    margin-right: 1px;
+    width:127px; 
+    text-align: center;
+    line-height: 30px;
+    background-color:rgb(146,216,53);
+    color : white; 
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.4)
+}
+
+.e3{
+    float: left; 
+    margin-right: 1px;
+    width:127px; 
+    text-align: center;
+    line-height: 30px;
+    background-color:rgb(146,216,53);
+    color : white; 
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.4)
+}
+
+.e4{
+    float: left; 
+    margin-right: 1px;
+    width:127px; 
+    text-align: center;
+    line-height: 30px;
+    background-color:rgb(146,216,53);
+    color : white; 
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.4)
+}
+
+.e5{
+    float: left; 
+    margin-right: 1px;
+    width: 127px;
+    text-align: center;
+    line-height: 30px;
+    background-color:rgb(146,216,53);
+    color : white; 
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.4)
+}
+
+.e6{
+    float: left; 
+    width: 125px;
+    text-align: center;
+    line-height: 30px;
+    background-color:rgb(146,216,53);
+    color : white; 
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.4)
+}
+
+.e1:hover{
+    background-color: rgb(103, 146, 68);
+}
+
+.e2:hover:hover{
+    background-color: rgb(103, 146, 68);
+}
+
+.e3:hover{
+    background-color: rgb(103, 146, 68);
+}
+
+.e4:hover{
+    background-color: rgb(103, 146, 68);
+}
+
+.e5:hover{
+    background-color: rgb(103, 146, 68);
+} /* .........fin de la barre de menu  */
+
+ .img { /* .........positionner l'image Colored Design */
+     width: 90px;
+     text-align: center;
+     height: 9000px;
+     line-height: 900px;
+     float: left; 
+ }
+
+ .contenu {
+     margin-left: 90px;
+     margin-right : 20px;
+     margin-top: 2%;
+     position : relative;
+     text-align: justify;
+ }
+
+.titre { /* .........pour l'ensemble des titres */
+    color : rgb(135, 177, 81); 
+    font-size: large;
+    border-bottom: 2px solid rgb(135, 177, 81);
+    margin-top: 2%;
+}
+
+.article {
+    margin-top: 2%;
+    line-height: 30px; 
+    text-indent: 2em;
+}
+
+
+.imgp {
+    margin-bottom : -5px;
+}
+

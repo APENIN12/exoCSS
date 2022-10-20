@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(238, 171, 216);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    width: 100%;
+}
+
+h1 { 
+    text-align :center;
+} /*aligner le titre */
+
+li { 
+    list-style-type: none; /*pour enlever les puces des listes*/
+    float : left; 
+    background-color: bisque;
+    padding:10px;
+    text-align : center; 
+}
+
+ul li {
+    list-style: none;
+    line-height:44px;
+    float:left; 
+     width: 20%;}
+
+ul li ul li {
+        display :none; /*pour cacher le sous menu - attention au ul li ul li*/
+        clear : both; /*pour annuler le float left plus haut et que la sous liste d'aligne les un en dessous des autres */
+    }
+
+ul li:hover ul li {
+        display: block;  /*pour faire apparaitre le sous menu - attention au ul li*/
+        }
+
+ul li:hover{
+    border-bottom:3px rgb(221, 34, 34) solid; /*pour souligner en rouge le menu */
+}
+
+ ul li ul li:hover {
+    border-bottom:3px white solid; /*pour souligner en blanc le sous menu */
+} 
+
+.menu {
+    text-align : center; 
+}
+
+/*FIN*/
+
+
+   
